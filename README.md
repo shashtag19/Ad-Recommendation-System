@@ -48,7 +48,7 @@ python -m notebook
 
 ### Then
 1. Open `notebook.ipynb` in the browser window that appears
-2. Click **Cell → Run All** to run everything at once
+2. Click Shift + Enter to run everything at once
 3. Scroll down to the interactive dashboard and move the sliders
 
 ```
