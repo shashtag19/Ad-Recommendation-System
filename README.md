@@ -33,6 +33,36 @@ python main.py
 pytest tests/ -v
 ```
 
+```bash
+## Running the Jupyter Notebook
+
+The notebook lets you run the full simulation interactively with sliders —
+no need to edit any code.
+
+### Setup
+pip install jupyter notebook ipywidgets
+
+### Launch
+cd Ad-Recommendation-System
+python -m notebook
+
+### Then
+1. Open `notebook.ipynb` in the browser window that appears
+2. Click **Cell → Run All** to run everything at once
+3. Scroll down to the interactive dashboard and move the sliders
+
+### What you'll see
+| Section | What it shows |
+|---|---|
+| Environment summary | All 10 ads and their hidden CTRs |
+| Cumulative clicks chart | Which algorithm earned more clicks over time |
+| Regret chart | How quickly each algorithm found the best ad |
+| True CTR bar chart | The ground truth each bandit was trying to learn |
+| Ad selection heatmap | Which algorithm showed which ad how many times |
+| Final report table | Total clicks, achieved CTR, and regret per algorithm |
+| Interactive sliders | Tune ads, rounds, epsilon, UCB c, and seed live |
+```
+
 ---
 
 ## Project Structure
