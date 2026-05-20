@@ -116,7 +116,7 @@ And saves a 4-panel chart to `plots/bandit_results.png`.
 - **Decaying epsilon** — reduce exploration rate as the model gains confidence
 - **Non-stationary rewards** — CTRs drift over time, forcing the bandit to re-explore
 - **Budget constraints** — each ad has a cost; maximise clicks per dollar spent
-- **LinUCB** — a linear contextual bandit, standard in real ad systems
+- **LinUCB** — a linear contextual bandit, standard in real ad system
 
 ---
 
